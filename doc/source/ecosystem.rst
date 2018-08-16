@@ -14,7 +14,7 @@ development to remain focused around it's original requirements.
 
 This is an inexhaustive list of projects that build on pandas in order to provide
 tools in the PyData space. For a list of projects that depend on pandas,
-see the 
+see the
 `libraries.io usage page for pandas <https://libraries.io/pypi/pandas/usage>`_
 or `search pypi for pandas <https://pypi.org/search/?q=pandas>`_.
 
@@ -44,7 +44,7 @@ ML pipeline.
 `Featuretools <https://github.com/featuretools/featuretools/>`__
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Featuretools is a Python library for automated feature engineering built on top of pandas. It excels at transforming temporal and relational datasets into feature matrices for machine learning using reusable feature engineering "primitives". Users can contribute their own primitives in Python and share them with the rest of the community. 
+Featuretools is a Python library for automated feature engineering built on top of pandas. It excels at transforming temporal and relational datasets into feature matrices for machine learning using reusable feature engineering "primitives". Users can contribute their own primitives in Python and share them with the rest of the community.
 
 .. _ecosystem.visualization:
 
@@ -205,12 +205,12 @@ This package requires valid credentials for this API (non free).
 pandaSDMX is a library to retrieve and acquire statistical data
 and metadata disseminated in
 `SDMX <http://www.sdmx.org>`_ 2.1, an ISO-standard
-widely used by institutions such as statistics offices, central banks,   
-and international organisations. pandaSDMX can expose datasets and related 
+widely used by institutions such as statistics offices, central banks,
+and international organisations. pandaSDMX can expose datasets and related
 structural metadata including data flows, code-lists,
 and data structure definitions as pandas Series
 or MultiIndexed DataFrames.
-   
+
 `fredapi <https://github.com/mortada/fredapi>`__
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 fredapi is a Python interface to the `Federal Reserve Economic Data (FRED) <http://research.stlouisfed.org/fred2/>`__
@@ -241,6 +241,10 @@ providing N-dimensional variants of the core pandas data structures. It aims to
 provide a pandas-like and pandas-compatible toolkit for analytics on multi-
 dimensional arrays, rather than the tabular data for which pandas excels.
 
+`phylopandas <https://github.com/Zsailer/phylopandas>`__
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+PhyloPandas provides a Pandas-like interface for reading sequence and phylogenetic tree data into pandas DataFrames. This enables easy manipulation of phylogenetic data using familiar Python/Pandas functions. Finally, phylogenetics for humans!
 
 .. _ecosystem.out-of-core:
 
@@ -335,7 +339,9 @@ Library        Accessor   Classes
 ============== ========== =========================
 `cyberpandas`_ ``ip``     ``Series``
 `pdvega`_      ``vgplot`` ``Series``, ``DataFrame``
+`phylopandas`_ ``phylo``  ``Series``, ``DataFrame``
 ============== ========== =========================
 
 .. _cyberpandas: https://cyberpandas.readthedocs.io/en/latest
 .. _pdvega: https://jakevdp.github.io/pdvega/
+.. _phylopandas: https://phylopandas.readthedocs.io/en/latest/
